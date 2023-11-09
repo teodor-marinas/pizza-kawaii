@@ -1,0 +1,262 @@
+body {
+  background: linear-gradient(90deg, rgb(232, 227, 227) 0%, rgb(232, 227, 227) 50%,rgb(232, 227, 227) 100%);
+}
+
+#pizzaJSON {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  transition: margin-left 3s;
+  margin-left: 0;
+}
+
+.pizza {
+  position: relative;
+  padding: 20px;
+  width: 600px;
+  height: 350px;
+  /* border-radius: 25px; */
+  border: 2px solid gray;
+  box-shadow: 5px 10px 18px rgb(85, 84, 84);
+  margin-left: 100px;
+  background-color: white;
+  margin-block: 20px;
+}
+
+/* .pizza {
+  width: 500px;
+  height: 300px;
+} */
+
+.pizzaName {
+  color: orangered;
+  margin-left: 200px;
+  font-size: 30px;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+}
+
+.pizzaIngredients {
+  margin-left: 200px;
+  margin-top: 25px;
+  font-family: Oswald, sans-serif ;
+  font-weight: 1000;
+  font-size: 21px;
+}
+
+.pizzaPrice {
+  position: absolute;
+  text-align: right;
+  color: orangered;
+  font-family: Oswald, sans-serif ;
+  font-size: 25px;
+  font-weight: 550;
+  top: 50%;
+  left: 85%;
+}
+
+img {
+  float: left;
+  width: auto;
+  padding: 5px;
+  height: 200px;
+}
+
+.searchBar {
+  position: fixed;
+  background: rgb(227, 59, 59);
+  background: linear-gradient(90deg, rgba(227, 59, 59, 1) 0%, rgba(255, 197, 115, 1) 50%, rgba(247, 131, 21, 1) 100%);
+  margin-top: 0;
+  height: 70px;
+  width: 100%;
+  border-radius: 5px 5px 0 0 ;
+}
+
+
+
+.allergens {
+  background-color: rgb(52, 52, 52);
+  /* width: 300px;
+  height: 900px;
+  display: block;
+  position: relative; */
+  /* width: 50px;
+  height: 100px;
+  transform: rotate(90deg); */
+  width: 300px;
+  height: 5vh;
+  writing-mode: horizontal-tb;
+  display: block;
+  position: fixed;
+  transition: height 4s;
+  transition-timing-function: ease-out;
+  visibility: hidden;
+  font-size: 22px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  color: white;
+  border-radius: 0 5px 0 5px;
+
+  /* text-orientation: upright; */
+}
+
+@keyframes hover {
+  from {
+    height: 5vh;
+  }
+
+  to {
+    height: 100vh;
+  }
+}
+
+#root {
+  padding-top: 70px;
+  background-color: rgb(232, 227, 227);
+}
+
+label {
+  position: relative;
+  left: 25px;
+  top: 25px;
+  display: block !important;
+  gap: 10px;
+}
+
+.allergen {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.checkboxx {
+  margin-right: 10px;
+}
+
+.filter {
+  background-color: #eee;
+  border: none;
+  padding: 1px;
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 25px;
+  width: 150px;
+  border-radius: 1rem;
+  color: lightcoral;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+
+.filter:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
+}
+
+.filter:hover:not(:disabled) {
+  background: lightcoral;
+  color: white;
+  text-shadow: 0 0.1rem #bcb4b4;
+}
+
+.filter:disabled {
+  cursor: auto;
+  color: grey;
+}
+.btn-outline-danger {
+    box-shadow: 0 0.4rem #dfd9d9;
+    margin-top: 5px;
+    width: 100px;
+    margin-right: 10px;
+}
+.orderForm {
+  /* visibility: hidden; */
+  position: fixed !important;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+#popupContainer{
+  position: fixed !important;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  margin-left: 600px;
+}
+.popup {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.675);
+  width: 100vw;
+  height: 100vh;
+  position: fixed !important;
+  top: 0;
+}
+.receipt {
+  background-color: white !important;
+  border-radius:  5px !important;
+  margin-top: 255px;
+  margin-left: 200px;
+}
+
+#submitBttn {
+ margin-top: 25px;
+ margin-left: 35px;
+}
+
+
+#formContainer {
+  margin-left: 600px;
+  margin-bottom: 200px;
+  /* background-color: rgb(135, 132, 132); */
+  background: linear-gradient(90deg, rgba(227, 59, 59, 1) 0%, rgba(255, 197, 115, 1) 50%, rgba(247, 131, 21, 1) 100%);
+  padding: 60px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.formItem {
+  padding: 15px
+}
+
+.orderBttn {
+  background-color: orangered;
+    width: 150px;
+    height: 50px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    left: 70%;
+    top: 80%;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    }
+
+.cancelBtn {
+  background-color: red;
+  color: white;
+  font-weight: 800;
+  height: auto;
+  width: 35px;
+  font-size: 25px;
+  /* margin-left: 60px;
+  margin-top: 20px; */
+}
+.amountInput {
+  position: absolute;
+  top: 70%;
+  left :67%;
+  /* margin-left: 380px; */
+}

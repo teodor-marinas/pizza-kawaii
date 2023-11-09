@@ -1,0 +1,40 @@
+{
+    "allergens": [
+        {
+            "id": 1,
+            "name": "Gluten"
+        },
+        {
+            "id": 2,
+            "name": "Soybeans"
+        },
+        {
+            "id": 3,
+            "name": "Milk"
+        },
+        {
+            "id": 4,
+            "name": "Fish"
+        },
+        {
+            "id": 5,
+            "name": "Crustaceans"
+        },
+        {
+            "id": 6,
+            "name": "Mushrooms"
+        },
+        {
+            "id": 7,
+            "name": "Celery"
+        },
+        {
+            "id": 8,
+            "name": "Egg"
+        },
+        {
+            "id": 9,
+            "name": "Onion"
+        }
+    ]
+}

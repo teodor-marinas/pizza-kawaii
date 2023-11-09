@@ -1,0 +1,151 @@
+{
+    "pizzas": [
+        {
+            "id": 1,
+            "name": "Pizza Prosciutto e Funghi",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-prosciutto-e-funghi.jpg",
+            "ingredients": [
+                "mozzarella",
+                "tomato sauce",
+                "mushrooms",
+                "ham"
+            ],
+            "price": 45,
+            "allergens": [
+                1,
+                2,
+                3,
+                6
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Pizza Margherita",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-margherita.jpg",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "green basil"
+            ],
+            "price": 40,
+            "allergens": [
+                1,
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Pizza Diavola",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-diavola.jpg",
+            "ingredients": [
+                "mozzarella",
+                "tomato sauce",
+                "spicy salami"
+            ],
+            "price": 45,
+            "allergens": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Pizza Capriciosa",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-capriciosa.jpg",
+            "ingredients": [
+                "mozzarella",
+                "tomato sauce",
+                "mushrooms",
+                "ham",
+                "bell pepper",
+                "black olives"
+            ],
+            "price": 45,
+            "allergens": [
+                1,
+                2,
+                3,
+                6,
+                8
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Pizza Quattro Stagioni",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-quattro-stagioni.jpg",
+            "ingredients": [
+                "mozzarella",
+                "tomato sauce",
+                "sweet salami",
+                "mushrooms",
+                "bell pepper",
+                "black olives"
+            ],
+            "price": 55,
+            "allergens": [
+                1,
+                2,
+                3,
+                6
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Pizza Quattro Formaggi",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-quattro-stagioni.jpg",
+            "ingredients": [
+                "mozzarella",
+                "smoked cheese",
+                "gorgonzola",
+                "emmenthaler"
+            ],
+            "price": 45,
+            "allergens": [
+                1,
+                3
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Pizza Campagnola",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-campagnola.jpg",
+            "ingredients": [
+                "mozzarella",
+                "tomato sauce",
+                "red onion",
+                "bell pepper",
+                "eggplant",
+                "corn",
+                "black olives"
+            ],
+            "price": 45,
+            "allergens": [
+                1,
+                3,
+                7,
+                9
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Pizza Carnivora",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-carnivora.jpg",
+            "ingredients": [
+                "mozzarella",
+                "tomato sauce",
+                "ham",
+                "spicy salami",
+                "tenderloin",
+                "sweet salami",
+                "semi-smoked sausages"
+            ],
+            "price": 50,
+            "allergens": [
+                1,
+                2,
+                3
+            ]
+        }
+    ]
+}
