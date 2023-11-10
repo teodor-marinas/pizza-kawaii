@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Pizza Prosciutto e Funghi",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-prosciutto-e-funghi.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Prosciutto-E-Funghi-500.jpg",
             "ingredients": [
                 "mozzarella",
                 "tomato sauce",
@@ -21,7 +21,7 @@
         {
             "id": 2,
             "name": "Pizza Margherita",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-margherita.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Margherita-500_1.jpg",
             "ingredients": [
                 "tomato sauce",
                 "mozzarella",
@@ -36,7 +36,7 @@
         {
             "id": 3,
             "name": "Pizza Diavola",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-diavola.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Diavola-500.jpg",
             "ingredients": [
                 "mozzarella",
                 "tomato sauce",
@@ -52,7 +52,7 @@
         {
             "id": 4,
             "name": "Pizza Capriciosa",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-capriciosa.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Capriciosa-500_1.jpg",
             "ingredients": [
                 "mozzarella",
                 "tomato sauce",
@@ -73,7 +73,7 @@
         {
             "id": 5,
             "name": "Pizza Quattro Stagioni",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-quattro-stagioni.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Quattro-Stagioni-600.jpg",
             "ingredients": [
                 "mozzarella",
                 "tomato sauce",
@@ -93,7 +93,7 @@
         {
             "id": 6,
             "name": "Pizza Quattro Formaggi",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-quattro-stagioni.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Quattro-Formaggi-500_1.jpg",
             "ingredients": [
                 "mozzarella",
                 "smoked cheese",
@@ -109,7 +109,7 @@
         {
             "id": 7,
             "name": "Pizza Campagnola",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-campagnola.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Campagnola-500_1.jpg",
             "ingredients": [
                 "mozzarella",
                 "tomato sauce",
@@ -130,7 +130,7 @@
         {
             "id": 8,
             "name": "Pizza Carnivora",
-            "image": "https://www.fabiopizza.ro/upload/shop/products/pizza-carnivora.jpg",
+            "image": "https://www.fabiopizza.ro/upload/shop/products/Pizza-Carnivora-500_1.jpg",
             "ingredients": [
                 "mozzarella",
                 "tomato sauce",
