@@ -13,7 +13,7 @@ Welcome to the Pizza Kawaii Website! This is an online platform for ordering piz
 The project uses Bootstrap, Express, and Nodemon. To install these dependencies, navigate to the server directory and run the npm install command.
 
 ```bash
-cd ./server
+cd ./backend
 npm install
 ```
 
@@ -22,7 +22,7 @@ npm install
 To run the code, navigate to the server directory and run the node server.js command.
 
 ```bash
-cd ./server
+cd ./backend
 node server.js
 ```
 
